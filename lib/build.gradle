@@ -33,4 +33,9 @@ dependencies {
     androidTestImplementation appConfig["espresso"]
 
     implementation appConfig["appcompat"]
+    api appConfig["okhttp"]
+    api appConfig["retrofit"]
+    api appConfig["converter-gson"]
+    api appConfig["gson"]
+
 }

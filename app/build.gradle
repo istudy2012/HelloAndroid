@@ -32,4 +32,6 @@ dependencies {
     implementation appConfig["multidex"]
     implementation appConfig["appcompat"]
 
+    implementation project(":lib")
+
 }
